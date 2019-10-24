@@ -3231,7 +3231,7 @@ input, select, textarea {
 			display: block;
 			height: 100%;
 			left: 0;
-			position: absolute;
+			position: absolute; /*absolute*/
 			top: 0;
 			width: 40vw;  /*50*/
 			z-index: -1;
@@ -3307,8 +3307,8 @@ input, select, textarea {
 					content: '';
 					display: block;
 					height: 2px;
-					position: absolute;
-					top: 1rem;
+					position: absolute; /*absolute*/
+                    top: 1rem;
 				}
 
 				#wrapper > section > header h1:after, #wrapper > section > header h2:after {
@@ -3411,7 +3411,7 @@ input, select, textarea {
 
 		#wrapper > section > header:before {
 			height: calc(100% + 10rem);
-			left: calc(50vw - 5rem);
+			left: 10px /*calc(50vw - 5rem); */
 		}
 
 		#wrapper > section > header h1:before, #wrapper > section > header h2:before {
@@ -3452,7 +3452,7 @@ input, select, textarea {
 		}
 
 		#wrapper > section:last-of-type > header:after {
-			left: calc(50vw - 5rem - 0.25rem + 1px);
+			left: 20px /*calc(50vw - 5rem - 0.25rem + 1px);*/
 		}
 
 		#wrapper .copyright {
