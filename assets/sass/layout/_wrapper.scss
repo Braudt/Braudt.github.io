@@ -186,7 +186,7 @@
 			section {
 				display: grid;
 				grid-template-areas: "header content" "footer content";
-				grid-template-columns: 30vw 50vw; //50 50
+				grid-template-columns: 30vw 70vw; //50 50
 				grid-template-rows: 1fr;
 
 				&:first-child {

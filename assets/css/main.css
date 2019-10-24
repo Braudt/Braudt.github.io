@@ -3233,14 +3233,14 @@ input, select, textarea {
 			left: 0;
 			position: absolute;
 			top: 0;
-			width: 50vw;
+			width: 40vw;  /*50*/
 			z-index: -1;
 		}
 
 		#wrapper section {
 			display: grid;
 			grid-template-areas: "header content" "footer content";
-			grid-template-columns: 50vw 50vw;
+			grid-template-columns: 40vw 60vw; /*50 50 */
 			grid-template-rows: 1fr;
 		}
 
