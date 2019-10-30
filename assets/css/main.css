@@ -3293,10 +3293,10 @@ input, select, textarea {
 			#wrapper > section > header:before {
 				background: #43d9b8;
 				content: '';
-				display: block;
+				display: none; /* block */
 				margin-top: 1rem;
 				position: absolute;
-				width: 2px;
+                width: 2px;
 			}
             
 
@@ -3311,6 +3311,7 @@ input, select, textarea {
 					height: 2px;
 					position: absolute; /*absolute*/
                     top: 1rem;
+                    right: 0.75rem;
 				}
 
 				#wrapper > section > header h1:after, #wrapper > section > header h2:after {
@@ -3321,7 +3322,9 @@ input, select, textarea {
 					height: 0.5rem;
 					position: absolute;
 					top: 0.75rem;
-					width: 0.5rem;
+                    width: 0.5rem;
+                    right: 0.75rem;
+
 				}
 
 			#wrapper > section > header h1 {
