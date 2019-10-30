@@ -3217,7 +3217,7 @@ input, select, textarea {
 	#wrapper {
 		position: relative;
 		width: 100vw;
-		padding: 0 0 10rem 0;
+		padding: 0 0 10rem 0 /*0 0 10rem 0;*/
 	}
 
 		#wrapper:before {
@@ -3273,7 +3273,7 @@ input, select, textarea {
 			#wrapper section > .content {
 				grid-area: content;
 				max-width: 60rem;
-				position: relative;
+                position: relative;
 			}
 
 			#wrapper section > footer {
@@ -3398,7 +3398,7 @@ input, select, textarea {
 
 			#wrapper section > header {
 				padding: 0 10rem 0 5rem;
-				width: 35rem;
+                width: 35rem;
 			}
 
 			#wrapper section > .content {
@@ -3428,7 +3428,8 @@ input, select, textarea {
 		}
 
 			#wrapper > section > .content > section > header {
-				width: 32rem;
+                width: 32rem;
+                left: 5rem;
 			}
 
 		#wrapper > section.intro > header > * {
