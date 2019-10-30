@@ -3289,6 +3289,7 @@ input, select, textarea {
 			position: relative;
 		}
 
+            
 			#wrapper > section > header:before {
 				background: #43d9b8;
 				content: '';
@@ -3297,6 +3298,7 @@ input, select, textarea {
 				position: absolute;
 				width: 2px;
 			}
+            
 
 			#wrapper > section > header h1, #wrapper > section > header h2 {
 				position: relative;
@@ -3305,7 +3307,7 @@ input, select, textarea {
 				#wrapper > section > header h1:before, #wrapper > section > header h2:before {
 					background: #43d9b8;
 					content: '';
-					display: block;
+					display: none; /* block */
 					height: 2px;
 					position: absolute; /*absolute*/
                     top: 1rem;
@@ -3315,7 +3317,7 @@ input, select, textarea {
 					background: #43d9b8;
 					border-radius: 0.5rem;
 					content: '';
-					display: block;
+					display: none; /*block*/
 					height: 0.5rem;
 					position: absolute;
 					top: 0.75rem;
